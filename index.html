@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Controle inteligente de visitantes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700;800&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">Portaria</div>
+      <nav class="nav">
+        <a href="#benefits">Benefícios</a>
+        <a href="#features">Funcionalidades</a>
+        <a href="#contact" class="btn btn-ghost">Agendar demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Controle inteligente de visitantes</h1>
+          <p class="lead">Segurança e praticidade para sua portaria — rápido, intuitivo e confiável.</p>
+          <div class="hero-ctas">
+            <button class="btn btn-primary" id="demoBtn">Solicitar demonstração</button>
+            <a href="#features" class="btn btn-secondary">Conhecer funcionalidades</a>
+          </div>
+          <ul class="hero-list">
+            <li>Registro rápido</li>
+            <li>Histórico acessível</li>
+            <li>Validação e segurança</li>
+          </ul>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="card-mock">
+            <div class="card-header">Painel de visitas</div>
+            <div class="card-body">
+              <div class="row"><span>Visitante</span><span>Bloco / Apt</span></div>
+              <div class="row"><strong>João Silva</strong><span>Apt 302</span></div>
+              <div class="row muted">10:23 — 01/09/2026</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="benefits" class="section dark-section">
+      <div class="container">
+        <h2 class="section-title">Benefícios</h2>
+        <p class="section-sub">Tudo pensado para agilidade, controle e segurança.</p>
+        <div class="grid cards">
+          <article class="card">
+            <div class="icon">✅</div>
+            <h3>Registro rápido</h3>
+            <p>Registre visitantes em segundos com uma interface clara.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🏷️</div>
+            <h3>Controle por apartamento</h3>
+            <p>Atribua entradas por unidade e mantenha histórico por morador.</p>
+          </article>
+          <article class="card">
+            <div class="icon">📜</div>
+            <h3>Histórico acessível</h3>
+            <p>Consulte registros anteriores rapidamente quando necessário.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🔒</div>
+            <h3>Segurança reforçada</h3>
+            <p>Validação simples e rastreabilidade das entradas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <h2 class="section-title">Funcionalidades</h2>
+        <div class="grid features-grid">
+          <div class="feature">
+            <h3>Registro de visitantes</h3>
+            <p>Formulário direto, com validação e foco em usabilidade.</p>
+          </div>
+          <div class="feature">
+            <h3>Consulta de histórico</h3>
+            <p>Filtros por data, unidade e visitante.</p>
+          </div>
+          <div class="feature">
+            <h3>Validação de documentos</h3>
+            <p>Validação básica de CPF e checagens rápidas.</p>
+          </div>
+          <div class="feature">
+            <h3>Monitoramento em tempo real</h3>
+            <p>Painel que atualiza em tempo real com entradas recentes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section cta-section dark-section">
+      <div class="container cta-grid">
+        <div>
+          <h2>Modernize sua portaria</h2>
+          <p class="lead">Mais praticidade. Mais segurança.</p>
+        </div>
+        <form id="demoForm" class="demo-form" aria-label="Formulário de agendamento">
+          <label>
+            Nome
+            <input type="text" name="name" required placeholder="Seu nome">
+          </label>
+          <label>
+            Telefone / WhatsApp
+            <input type="tel" name="tel" required placeholder="(00) 9 9999-9999">
+          </label>
+          <label>
+            Empresa / Condomínio
+            <input type="text" name="company" placeholder="Nome do condomínio">
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Agendar demonstração</button>
+            <button type="button" class="btn btn-secondary" id="contactSales">Falar com especialista</button>
+          </div>
+          <p class="muted">Nós entraremos em contato em até 2 dias úteis.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2026 Portaria — Todos os direitos reservados</div>
+      <div class="muted">Segurança • Privacidade • Confiabilidade</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

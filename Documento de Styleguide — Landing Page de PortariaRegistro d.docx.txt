@@ -1,0 +1,579 @@
+Documento de Styleguide — Landing Page de Portaria/Registro de Visitantes
+
+ 
+
+1. Objetivo do projeto
+
+A landing page deve transmitir confiança, organização e segurança para quem administra ou atua em condomínios, prédios e portarias. O objetivo principal é apresentar a solução como um sistema rápido, intuitivo e confiável para registrar visitantes, controlar entradas e dar mais agilidade à rotina de portaria.
+
+ 
+
+2. Persona
+
+Persona principal:
+
+- Nome: Carlos Almeida
+
+- Idade: 35 a 52 anos
+
+- Perfil: Síndico, porteiro, administrador de condomínio ou responsável pela segurança do prédio
+
+- Necessidades:
+
+  - Agilidade no atendimento
+
+  - Controle de visitantes
+
+  - Segurança e rastreabilidade
+
+  - Interface simples e fácil de usar
+
+  - Visual limpo, profissional e confiável
+
+- Dor:
+
+  - Registro manual lento
+
+  - Falta de organização
+
+  - Dificuldade em localizar informações
+
+  - Risco de falhas na identificação de visitantes
+
+- Motivação:
+
+  - Reduzir tempo de atendimento
+
+  - Melhorar a segurança do condomínio
+
+  - Organizar as entradas e saídas de forma eficiente
+
+ 
+
+3. Posicionamento da marca
+
+A marca deve transmitir:
+
+- Segurança
+
+- Modernidade
+
+- Eficiência
+
+- Controle institucional
+
+- Confiança para gestão de acesso
+
+ 
+
+A linguagem visual deve ser profissional, sem exageros, com foco em clareza e utilidade.
+
+ 
+
+4. Diretrizes de design
+
+4.1 Estilo visual
+
+- Visual elegante e moderno
+
+- Predominância de dark mode
+
+- Visual enxuto, focado em funcionalidade
+
+- Interface com sensação de controle, organização e confiabilidade
+
+- Uso de elementos estruturados e espaços bem definidos
+
+ 
+
+4.2 Tom de voz da marca
+
+- Direto
+
+- Profissional
+
+- Solícito
+
+- Informativo
+
+- Confiante
+
+ 
+
+A comunicação da landing page deve ser objetiva, comunicar benefícios sem ser excessivamente comercial.
+
+ 
+
+5. Paleta de cores
+
+A base do projeto já parte de um visual escuro e moderno, com verde como destaque. A paleta abaixo reforça essa identidade.
+
+ 
+
+- Preto profundo: #050505
+
+- Preto grafite: #121212
+
+- Cinza escuro: #1b1b1b
+
+- Cinza médio: #3b3b3b
+
+- Cinza claro: #999999
+
+- Verde primário: #31b86b
+
+- Verde escuro: #193d29
+
+- Verde claro: #63e69a
+
+- Azul institucional: #267cc2
+
+- Amarelo destaque: #dda817
+
+- Vermelho alerta: #d94f4f
+
+- Branco: #ffffff
+
+ 
+
+Uso recomendado:
+
+- Fundo principal: preto profundo / grafite
+
+- Títulos e destaque principal: verde
+
+- Botões primários: verde
+
+- Botões de ação complementar: azul ou amarelo
+
+- Alertas e erros: vermelho
+
+- Texto auxiliar: cinza claro
+
+ 
+
+6. Tipografia
+
+Fontes sugeridas:
+
+- Principal: Inter, Poppins, Montserrat ou Segoe UI
+
+- Secundária: Roboto ou Arial, caso necessário
+
+ 
+
+Hierarquia tipográfica:
+
+- H1: 48px, peso 700, cor verde ou branca
+
+- H2: 28px a 36px, peso 700
+
+- H3: 22px a 24px, peso 600
+
+- Texto de corpo: 18px a 22px
+
+- Labels e pequenos textos: 14px a 18px
+
+ 
+
+Observações:
+
+- Fonte clara, moderna e sem ser muito decorativa
+
+- Priorizar legibilidade em telas de celular e desktop
+
+- Evitar excesso de fontes; usar 1 principal + 1 secundária, se necessário
+
+ 
+
+7. Espaçamento e grid
+
+Sistema de espaçamento:
+
+- 8px base scale
+
+- Espaçamentos recomendados:
+
+  - 8px
+
+  - 12px
+
+  - 16px
+
+  - 20px
+
+  - 24px
+
+  - 30px
+
+  - 40px
+
+  - 56px
+
+  - 72px
+
+ 
+
+Layout:
+
+- Container central com largura máxima de 1200px a 1500px
+
+- Grid com 12 colunas para desktop
+
+- Empilhar em 1 coluna em mobile
+
+- Espaços consistentes entre blocos para manter organização visual
+
+ 
+
+8. Componentes da landing page
+
+8.1 Hero section
+
+Objetivo: apresentar o produto e a proposta de valor imediatamente.
+
+ 
+
+Estrutura sugerida:
+
+- Título principal: “Controle inteligente de visitantes”
+
+- Subtítulo: “Segurança e praticidade para sua portaria”
+
+- CTA principal: “Solicitar demonstração”
+
+- CTA secundário: “Conhecer funcionalidades”
+
+- Imagem ou ilustração:
+
+  - painel administrativo
+
+  - controle de acesso
+
+  - cards de registro de visitante
+
+  - ícones de segurança e organização
+
+ 
+
+Visual:
+
+- Fundo escuro
+
+- Texto grande e direto
+
+- Botão verde como principal
+
+- Destaque para segurança e rapidez
+
+ 
+
+8.2 Benefícios
+
+Blocos com 3 a 4 itens:
+
+- Registro rápido
+
+- Controle por apartamento
+
+- Histórico acessível
+
+- Segurança reforçada
+
+ 
+
+Estilo:
+
+- Cards com fundo escuro
+
+- Ícones simples e circulares
+
+- Título em destaque e descrição breve
+
+ 
+
+8.3 Funcionalidades
+
+Seções com:
+
+- Registro de visitantes
+
+- Seleção de apartamento
+
+- Consulta de histórico
+
+- Validação de CPF
+
+- Acompanhamento em tempo real
+
+ 
+
+Visual:
+
+- Cards em grid
+
+- Ícones em verde
+
+- Texto curto e objetivo
+
+ 
+
+8.4 Segurança e confiança
+
+Elementos sugeridos:
+
+- Badge de “Segurança”
+
+- “Controle em tempo real”
+
+- “Acesso organizado”
+
+- “Histórico de entradas”
+
+- “Confiabilidade para gestão”
+
+ 
+
+8.5 CTA final
+
+Texto:
+
+- “Modernize sua portaria”
+
+- “Mais praticidade. Mais segurança.”
+
+Botão:
+
+- “Agendar demonstração”
+
+- “Falar com especialista”
+
+ 
+
+9. Botões
+
+Botão primário:
+
+- Fundo: verde
+
+- Texto: branco
+
+- Radius: 12px
+
+- Hover: verde mais escuro
+
+- Estado ativo: leve redução de escala
+
+ 
+
+Botão secundário:
+
+- Fundo: azul ou amarelo
+
+- Texto: branco
+
+- Menor destaque visual que o principal
+
+ 
+
+Botão de ação em cards:
+
+- Fundo azul ou cinza
+
+- Leve efeito hover
+
+ 
+
+10. Formulários
+
+Campos precisam ser simples e muito claros.
+
+- Fundo escuro
+
+- Borda discreta
+
+- Texto em destaque
+
+- Focus com borda verde
+
+- Inputs com altura confortável para uso em desktop e mobile
+
+ 
+
+Exemplo:
+
+- Nome do visitante
+
+- CPF
+
+- Apartamento
+
+- Botão de registrar
+
+ 
+
+Regras:
+
+- Campos fáceis de entender
+
+- Mensagens de erro em vermelho
+
+- Mensagens de sucesso em verde
+
+ 
+
+11. Componentes de feedback visual
+
+Mensagens:
+
+- Sucesso: fundo verde escuro, texto verde claro
+
+- Erro: fundo vermelho escuro, texto claro
+
+- Aviso: fundo amarelo escuro, texto claro ou amarelo suave
+
+ 
+
+Indicadores:
+
+- Status de apartamentos
+
+- Histórico de entradas
+
+- Registro atualizado
+
+- Dados e horários em interface clara
+
+ 
+
+12. Ícones e ilustrações
+
+- Ícones de segurança, prédio, pessoas, relógio, documento, lista
+
+- Estilo flat e moderno
+
+- Não usar ícones muito detalhados ou caricatos
+
+- Preferir linhas limpas e formas simples
+
+ 
+
+13. Microinterações
+
+- Hover em botões e cards
+
+- Focus visível em inputs
+
+- Suavidade de transição: 0.2s a 0.3s
+
+- Feedback visual em ações de edição, registro e alerta
+
+ 
+
+14. Diretrizes de acessibilidade
+
+- Contraste adequado entre texto e fundo
+
+- Tamanho mínimo de fonte de 16px
+
+- Botões com áreas clicáveis suficientes
+
+- Navegação acessível por teclado
+
+- Labels legíveis para todos os campos
+
+- Foco visível em todos os elementos interativos
+
+ 
+
+15. Visual da landing page recomendado
+
+A landing page pode seguir esta ordem:
+
+- Hero
+
+- Benefícios
+
+- Como funciona
+
+- Funcionalidades
+
+- Segurança e confiança
+
+- Depoimentos ou métricas
+
+- CTA final
+
+- Rodapé
+
+ 
+
+Seções sugeridas:
+
+- Header com logo, menu e botão de contato
+
+- Hero com mensagem principal
+
+- Cards de benefícios
+
+- Blocos de funcionalidades
+
+- Seção de diferenciais e segurança
+
+- Rodapé com contato e redes
+
+ 
+
+16. Proposta de identidade visual
+
+A marca deve ser percebida como:
+
+- Modern
+
+- Confiável
+
+- Tecnológica
+
+- Funcional
+
+- Voltada para condomínios e portarias
+
+ 
+
+Não precisa ser “bonita” por si só; precisa ser “clara, segura e útil”.
+
+ 
+
+17. Direção criativa final
+
+A landing page deve ser pensada como um portal de confiança para gestão de portaria:
+
+- visual escuro e premium
+
+- texto direto
+
+- destaque para praticidade e controle
+
+- design limpo e institucional
+
+- perfeito para público adulto e técnico
+
+ 
+
+18. Exemplo de slogan
+
+- “Portaria inteligente para um condomínio mais seguro.”
+
+- “Controle de visitantes com rapidez, eficiência e segurança.”
+
+- “Organize a entrada do seu condomínio em segundos.”
+
+ 
+
+Se quiser, posso fazer o próximo passo e entregar para você:
+
+- um guia visual completo em formato de documento pronto para apresentação
+
+- uma proposta de landing page em wireframe
+
+- ou até mesmo o código HTML/CSS/React dessa landing page já no estilo do styleguide.
