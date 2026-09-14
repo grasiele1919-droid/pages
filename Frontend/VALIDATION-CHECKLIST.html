@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validador de Schema.org - Portaria</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f5f5;
+      padding: 40px 20px;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 8px;
+      padding: 40px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #22c55e;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      color: #666;
+      margin-bottom: 30px;
+    }
+    .section {
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid #eee;
+    }
+    .section:last-child {
+      border-bottom: none;
+    }
+    h2 {
+      color: #1a1a1a;
+      margin: 20px 0 15px 0;
+      font-size: 1.3em;
+    }
+    .checklist {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .item {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      background: #f9f9f9;
+      border-radius: 4px;
+      border-left: 4px solid #22c55e;
+    }
+    .item.todo {
+      border-left-color: #fbbf24;
+    }
+    .checkbox {
+      width: 24px;
+      height: 24px;
+      margin-right: 12px;
+      cursor: pointer;
+      accent-color: #22c55e;
+    }
+    .code {
+      background: #f5f5f5;
+      padding: 15px;
+      border-radius: 4px;
+      overflow-x: auto;
+      font-family: 'Monaco', 'Courier New', monospace;
+      font-size: 0.9em;
+      margin: 15px 0;
+      border-left: 4px solid #22c55e;
+    }
+    .link {
+      color: #22c55e;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .link:hover {
+      text-decoration: underline;
+    }
+    .warning {
+      background: #fef3c7;
+      border: 1px solid #fbbf24;
+      padding: 12px;
+      border-radius: 4px;
+      margin: 15px 0;
+    }
+    .success {
+      background: #dcfce7;
+      border: 1px solid #22c55e;
+      padding: 12px;
+      border-radius: 4px;
+      margin: 15px 0;
+    }
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+    }
+    .table th, .table td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    .table th {
+      background: #f5f5f5;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+    .status-ok {
+      color: #22c55e;
+      font-weight: 600;
+    }
+    .status-todo {
+      color: #fbbf24;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>✅ Validador de Otimização SEO - Portaria</h1>
+    <p class="subtitle">Checklist completo para validar indexação por IA e bots</p>
+
+    <!-- SEÇÃO 1: META TAGS -->
+    <div class="section">
+      <h2>1️⃣ Meta Tags</h2>
+      <div class="checklist">
+        <label class="item">
+          <input type="checkbox" class="checkbox" checked disabled>
+          <span><strong>meta description</strong> - Descrição otimizada para SEO</span>
+        </label>
+        <label class="item">
+          <input type="checkbox" class="checkbox" checked disabled>
+          <span><strong>meta keywords</strong> - Palavras-chave relevantes</span>
+        </label>
+        <label class="item">
+          <input type="checkbox" class="checkbox" checked disabled>
+          <span><strong>meta robots</strong> - Instruções para crawlers</span>
+        </label>
+        <label class="item">
+          <input type="checkbox" class="checkbox" checked disabled>
+          <span><strong>meta author</strong> - Identificação do autor</span>
+        </label>
+        <label class="item">
+          <input type="checkbox" class="checkbox" checked disabled>
+          <span><strong>canonical tag</strong> - Link canônico configurado</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- SEÇÃO 2: OPEN GRAPH -->
+    <div class="section">
+      <h2>2️⃣ Open Graph Tags</h2>
+      <p>Necessário para redes sociais (Facebook, LinkedIn, WhatsApp preview)</p>
+      <div class="checklist">
+        <label class="item">
+          <input type="checkbox" class="checkbox" checked disabled>
+          <span><strong>og:title, og:description, og:url</strong></span>
+        </label>
+        <label class="item">
+          <input type="checkbox" class="checkbox" checked disabled>
+          <span><strong>og:type, og:locale</strong></span>
+        </label>
+        <label class="item todo">
+          <input type="checkbox" class="checkbox">
+          <span><strong>og:image</strong> - Criar imagem 1200x630px (⚠️ TODO)</span>
+        </label>
+      </div>
+      <div class="warning">
+        <strong>⚠️ Ação necessária:</strong> Crie um arquivo <code>og-image.png</code> (1200x630px) com design que represente o dashboard. Coloque no diretório <code>/pages/</code>.
+      </div>
+    </div>
+
+    <!-- SEÇÃO 3: TWITTER CARDS -->
+    <div class="section">
+      <h2>3️⃣ Twitter Cards</h2>
+      <p>Otimização para compartilhamento no X/Twitter</p>
+      <div class="checklist">
+        <label class="item">
+          <input type="checkbox" class="checkbox" checked disabled>
+          <span><strong>twitter:card</strong> - Formato: summary_large_image</span>
+        </label>
+        <label class="item">
+          <input type="checkbox" class="checkbox" checked disabled>
+          <span><strong>twitter:title, twitter:description, twitter:image</strong></span>
+        </label>
+      </div>
+    </div>
+
+    <!-- SEÇÃO 4: SCHEMA.ORG -->
+    <div class="section">
+      <h2>4️⃣ Schema.org Structured Data</h2>
+      <p>Dados estruturados que bots IA conseguem fazer parsing facilmente</p>
+      <div class="success">
+        ✅ <strong>Organization Schema</strong> - Identifica a empresa/projeto
+      </div>
+      <div class="code">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Portaria",
+  "url": "https://grasiele1919-droid.github.io/pages/",
+  "description": "Sistema de controle..."
+}
+      </div>
+      <div class="success">
+        ✅ <strong>SoftwareApplication Schema</strong> - Descreve o aplicativo
+      </div>
+      <div class="code">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Portaria",
+  "applicationCategory": "BusinessApplication"
+}
+      </div>
+    </div>
+
+    <!-- SEÇÃO 5: ROBOTS E SITEMAP -->
+    <div class="section">
+      <h2>5️⃣ Robots.txt e Sitemap.xml</h2>
+      <div class="checklist">
+        <label class="item">
+          <input type="checkbox" class="checkbox" checked disabled>
+          <span><strong>robots.txt</strong> - Criado com instruções para bots</span>
+        </label>
+        <label class="item">
+          <input type="checkbox" class="checkbox" checked disabled>
+          <span><strong>sitemap.xml</strong> - Mapa com URLs e prioridades</span>
+        </label>
+      </div>
+      <div class="success">
+        ✅ Ambos os arquivos estão disponíveis em seu repositório
+      </div>
+    </div>
+
+    <!-- SEÇÃO 6: VALIDAÇÃO ONLINE -->
+    <div class="section">
+      <h2>6️⃣ Ferramentas de Validação Online (Recomendadas)</h2>
+      <p>Use estas ferramentas para validar suas mudanças:</p>
+      
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Ferramenta</th>
+            <th>Propósito</th>
+            <th>URL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Schema.org Validator</strong></td>
+            <td>Valida JSON-LD</td>
+            <td><a href="https://validator.schema.org/" class="link" target="_blank">validator.schema.org</a></td>
+          </tr>
+          <tr>
+            <td><strong>Open Graph Preview</strong></td>
+            <td>Vê como aparecerá no Facebook</td>
+            <td><a href="https://www.opengraphconsulting.com/" class="link" target="_blank">opengraphconsulting.com</a></td>
+          </tr>
+          <tr>
+            <td><strong>Twitter Card Validator</strong></td>
+            <td>Valida Twitter Cards</td>
+            <td><a href="https://cards-dev.twitter.com/validator" class="link" target="_blank">cards-dev.twitter.com</a></td>
+          </tr>
+          <tr>
+            <td><strong>Mobile-Friendly Test</strong></td>
+            <td>Testa responsividade mobile</td>
+            <td><a href="https://search.google.com/test/mobile-friendly" class="link" target="_blank">Google Mobile-Friendly</a></td>
+          </tr>
+          <tr>
+            <td><strong>Google Search Console</strong></td>
+            <td>Estratégia geral de SEO</td>
+            <td><a href="https://search.google.com/search-console/" class="link" target="_blank">search.google.com</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- SEÇÃO 7: COMO USAR -->
+    <div class="section">
+      <h2>7️⃣ Como Validar Localmente</h2>
+      <p>Você pode validar o JSON-LD no seu próprio HTML:</p>
+      
+      <div class="code">
+1. Abra index.html no navegador
+2. Clique direito → "Inspecionar" ou pressione F12
+3. Procure por &lt;script type="application/ld+json"&gt;
+4. Copie o conteúdo JSON
+5. Cole em: https://validator.schema.org/
+      </div>
+    </div>
+
+    <!-- SEÇÃO 8: PRÓXIMOS PASSOS -->
+    <div class="section">
+      <h2>8️⃣ Próximos Passos Recomendados</h2>
+      <div class="checklist">
+        <label class="item todo">
+          <input type="checkbox" class="checkbox">
+          <span><strong>ALTA PRIORIDADE:</strong> Criar og-image.png (1200x630px)</span>
+        </label>
+        <label class="item todo">
+          <input type="checkbox" class="checkbox">
+          <span><strong>MÉDIA:</strong> Adicionar breadcrumb schema (se houver subpáginas)</span>
+        </label>
+        <label class="item todo">
+          <input type="checkbox" class="checkbox">
+          <span><strong>MÉDIA:</strong> Criar páginas /privacy e /terms</span>
+        </label>
+        <label class="item todo">
+          <input type="checkbox" class="checkbox">
+          <span><strong>BAIXA:</strong> Adicionar hreflang para multilíngue (se aplicável)</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- SEÇÃO 9: RESUMO -->
+    <div class="section">
+      <h2>📊 Resumo de Implementação</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Status</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Meta Tags</td>
+            <td class="status-ok">✅ Completo</td>
+            <td>Description, keywords, robots, author</td>
+          </tr>
+          <tr>
+            <td>Open Graph</td>
+            <td class="status-todo">⚠️ 90%</td>
+            <td>Falta apenas og-image.png</td>
+          </tr>
+          <tr>
+            <td>Twitter Cards</td>
+            <td class="status-ok">✅ Completo</td>
+            <td>Todas as tags implementadas</td>
+          </tr>
+          <tr>
+            <td>Schema.org JSON-LD</td>
+            <td class="status-ok">✅ Completo</td>
+            <td>Organization + SoftwareApplication</td>
+          </tr>
+          <tr>
+            <td>robots.txt</td>
+            <td class="status-ok">✅ Completo</td>
+            <td>Arquivo criado e configurado</td>
+          </tr>
+          <tr>
+            <td>sitemap.xml</td>
+            <td class="status-ok">✅ Completo</td>
+            <td>Arquivo criado com URLs</td>
+          </tr>
+          <tr>
+            <td>Documentação</td>
+            <td class="status-ok">✅ Completo</td>
+            <td>SEO-OPTIMIZATION.md criado</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- RODAPÉ -->
+    <div class="section" style="text-align: center; border-bottom: none;">
+      <p style="color: #999; font-size: 0.9em;">
+        Documento gerado: 09/09/2026 | Versão 1.0<br>
+        Para mais informações, leia <strong>SEO-OPTIMIZATION.md</strong>
+      </p>
+    </div>
+  </div>
+</body>
+</html>

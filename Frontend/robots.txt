@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Permite indexação de todos os bots
+Crawl-delay: 1
+
+Sitemap: https://grasiele1919-droid.github.io/pages/sitemap.xml
