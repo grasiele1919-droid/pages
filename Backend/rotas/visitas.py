@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 
-router = APIRouter(prefix="/api")
+router = APIRouter()
 
 VISITAS = [
     {

@@ -1,17 +1,23 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
-from rotas.dashboard import router as dashboard_router
+from rotas.dashboards import router as dashboards_router
 from rotas.visitas import router as visitas_router
 
 app = FastAPI(title="Portaria API")
 
-app.include_router(visitas_router)
-app.include_router(dashboard_router)
+# Registrar CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-
-@app.get("/health")
-def health():
-    return {"status": "ok", "message": "API is running successfully"}
+# Registrar rotas
+app.include_router(visitas_router, prefix="/api/visitas", tags=["Visitas"])
+app.include_router(dashboards_router, prefix="/api/dashboards", tags=["Dashboards"])
 
 
 if __name__ == "__main__":
